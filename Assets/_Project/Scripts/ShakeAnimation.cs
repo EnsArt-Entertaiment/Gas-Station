@@ -1,6 +1,4 @@
 using UnityEngine;
-namespace _Project.LuckyRoulette.Scripts.Animation
-{
     public class ShakeAnimation : MonoBehaviour
     {
         private const int PITCH = 0;
@@ -84,4 +82,3 @@ namespace _Project.LuckyRoulette.Scripts.Animation
             Gizmos.DrawWireSphere(_virtualBall[YAW], 1f);
         }
     }
-}

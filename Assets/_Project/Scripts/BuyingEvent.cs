@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BuyingEvent : MonoBehaviour
 {
@@ -7,13 +8,12 @@ public class BuyingEvent : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] Animator CustomerCarAnimator;
 
-
-    private void Start()
+    void Start()
     {
         unlockUIBtn.SetActive(false);
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) 
         {
@@ -21,7 +21,7 @@ public class BuyingEvent : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
