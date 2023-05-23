@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3690190925662597629}
   m_Layer: 0
-  m_Name: WaterPump
+  m_Name: Pump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
