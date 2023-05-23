@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterPumpHose
-  m_Shader: {fileID: 4800000, guid: 06a5908c3851fd746b93e13e4ab56a4c, type: 3}
+  m_Name: WaterPumpHose Normal
+  m_Shader: {fileID: 4800000, guid: 3abd86382eacd4b49821eedc695b2b1d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -53,6 +57,10 @@ Material:
         m_Scale: {x: 1, y: 3}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -94,6 +102,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AOOn: 0
     - _AlphaClip: 0
     - _AlphaCutoff: 0.5
     - _Blend: 0
@@ -114,9 +123,10 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NormalMapOn: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Power: 0.079
+    - _Power: 0.025
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -134,7 +144,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorMultiply: {r: 0.4723211, g: 0.47731102, b: 0.5471698, a: 0}
+    - _ColorMultiply: {r: 1, g: 0.8392157, b: 0, a: 0}
     - _ColorMultiply1: {r: 1, g: 0.8404256, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
