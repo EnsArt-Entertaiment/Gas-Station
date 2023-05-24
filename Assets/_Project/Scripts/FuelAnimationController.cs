@@ -5,12 +5,13 @@ using UnityEngine;
 public class FuelAnimationController : MonoBehaviour
 {
     [SerializeField] Animator CarAnimator;
-
+    [SerializeField] GameObject FuelBar;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.U))
         {
             FuelUnplugAnimation();
+            FuelBar.SetActive(false);
         }
         if (Input.GetKeyDown(KeyCode.P))
         {
