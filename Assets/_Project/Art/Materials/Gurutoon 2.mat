@@ -124,7 +124,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorCorrectionOnOff: 0
-    - _Contrast: 0.1
+    - _Contrast: -0.14
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -157,7 +157,7 @@ Material:
     - _RimOffset: 2.5
     - _RimOnOff: 0
     - _RimSmoothness: 0.25
-    - _Saturation: 0.2
+    - _Saturation: -0.1
     - _Saturation1: 0.3
     - _ShadingOffset: 0
     - _ShadingSmoothness: 0

@@ -105,6 +105,7 @@ Material:
     - _ClearCoat: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Contrast: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -122,6 +123,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
+    - _Saturation: 0.2
     - _Smoothness: 0.178
     - _SmoothnessTextureChannel: 0
     - _SolidColorONOFF: 0
@@ -134,7 +136,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.8396226, g: 0.6875312, b: 0.34377003, a: 1}
     - _Color: {r: 0, g: 0.8301887, b: 0.79433995, a: 1}
-    - _ColorMultiply: {r: 0.36470592, g: 0.5563111, b: 0.83137256, a: 0}
+    - _ColorMultiply: {r: 0.37411764, g: 0.562399, b: 0.83137256, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
     - _SolidColor: {r: 1, g: 1, b: 1, a: 0}

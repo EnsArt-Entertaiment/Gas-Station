@@ -105,6 +105,7 @@ Material:
     - _ClearCoat: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Contrast: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -122,6 +123,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 0
+    - _Saturation: 0.2
     - _Smoothness: 0.178
     - _SmoothnessTextureChannel: 0
     - _SolidColorONOFF: 0
